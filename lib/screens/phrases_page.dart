@@ -66,7 +66,7 @@ class PhrasesPage extends StatelessWidget {
         itemBuilder: (context, index) {
           return PhraseItem(
             phrase: phrases[index],
-            color:Color(0xff50ADC7),
+            color: Color(0xff50ADC7),
             itemType: 'phrases',
           );
         },
